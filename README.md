@@ -11,5 +11,5 @@ Converts an image into five TGA portrait variants and packages them into a ZIP a
 ## Usage
 
 ```bash
-chmod +x portrait-converter.sh
-./portrait-converter.sh image.png
+chmod +x nwn-portraits.sh
+./nwn-portraits.sh YOUR_IMAGE.png

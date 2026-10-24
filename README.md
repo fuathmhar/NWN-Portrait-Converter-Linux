@@ -1,18 +1,15 @@
-Portrait Image Converter
+# Portrait Image Converter
 
 Converts an image into five TGA portrait variants and packages them into a ZIP archive.
 
-Requirements
-Bash
-ImageMagick
-zip
+## Requirements
 
-Usage
-bash
+- Bash
+- ImageMagick
+- zip
+
+## Usage
+
+```bash
 chmod +x portrait-converter.sh
 ./portrait-converter.sh image.png
-
-
-The script creates image.zip in the current directory.
-
-The filename (excluding its extension) must be 15 characters or fewer.
